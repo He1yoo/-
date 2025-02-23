@@ -62,3 +62,96 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+/* ベーススタイル */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+header nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+/* メインコンテンツ */
+main {
+  padding: 40px 0;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.latest-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.content-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 48%;
+}
+
+.content-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.content-item p {
+  font-size: 1.2em;
+}
+
+.video iframe {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+}
+
+/* フッター */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
