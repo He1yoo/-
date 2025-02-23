@@ -34,11 +34,3 @@
         <p>ここでは、荒野行動のミッドタイマンにおける戦術やテクニックを徹底解説します。</p>
       </div>
     </section>
-
- 
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-}
